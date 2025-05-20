@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG 6 - checking OTP blank</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>62b45757-3340-478a-ad8e-d44d6985a8f3</testCaseGuid>
+</TestCaseEntity>

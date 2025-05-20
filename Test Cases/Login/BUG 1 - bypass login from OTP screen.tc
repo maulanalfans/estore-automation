@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user can login into dashboard without input OTP code</description>
+   <name>BUG 1 - bypass login from OTP screen</name>
+   <tag>bug</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c8c60675-97d9-4fda-8135-64c2a4b5db45</testCaseGuid>
+</TestCaseEntity>

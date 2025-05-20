@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG 3 - Login with blank form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6418a7bf-6e7a-4bb7-bbc9-fbd3305620ab</testCaseGuid>
+</TestCaseEntity>

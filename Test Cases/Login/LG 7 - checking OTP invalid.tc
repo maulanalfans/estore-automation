@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG 7 - checking OTP invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c87bca6a-eef7-4f45-9df1-2aa0c77cefe0</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>9436d367-40f9-4977-8760-7fbf7212b909</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Login Data/Invalid OTP Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>9436d367-40f9-4977-8760-7fbf7212b909</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>OTP Number</value>
+      <variableId>20a31c78-5476-4390-9f9b-60c5a5346fad</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>20a31c78-5476-4390-9f9b-60c5a5346fad</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RG 2 - register with duplicate email store</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>807f3b54-c9fa-453e-b4d9-86858b133c61</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5f5f7778-d4ae-4bb3-8154-673932a61798</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91bc7111-8fa1-4775-ae1f-0ca2687e83ce</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'03412312345'</defaultValue>
+      <description></description>
+      <id>5f5f7778-d4ae-4bb3-8154-673932a61798</id>
+      <masked>false</masked>
+      <name>phone_number</name>
+   </variable>
+   <variable>
+      <defaultValue>'maulana@algostudio.net'</defaultValue>
+      <description></description>
+      <id>91bc7111-8fa1-4775-ae1f-0ca2687e83ce</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>
