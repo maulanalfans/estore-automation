@@ -21,13 +21,13 @@ Mobile.startExistingApplication(GlobalVariable.application_id, FailureHandling.S
 
 Mobile.tap(findTestObject('Object Repository/Login Screen/btn - Daftar'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/Registrasi Screen/title screen - Registraasi'), 0)
+Mobile.verifyElementVisible(findTestObject('Object Repository/Registrasi Screen/title screen - Registrasi'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Registrasi Screen/txt - Nomor Handphone'), phone_number, 0)
+Mobile.setText(findTestObject('Object Repository/Registrasi Screen/txtfield - Nomor Handphone'), phone_number, 0)
 
-String phoneNumber = Mobile.getText(findTestObject('Object Repository/Registrasi Screen/txt - Nomor Handphone'), 0)
+String phoneNumber = Mobile.getText(findTestObject('Object Repository/Registrasi Screen/txtfield - Nomor Handphone'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Registrasi Screen/txt - Alamat Email'), email, 0)
+Mobile.setText(findTestObject('Object Repository/Registrasi Screen/txtfield - Alamat Email'), email, 0)
 
 Mobile.tap(findTestObject('Object Repository/Registrasi Screen/btn - Lanjutkan'), 0)
 

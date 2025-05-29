@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>txt - Nomor Handphone</name>
+   <name>txtfield - Alamat Email</name>
    <tag></tag>
-   <elementGuidId>f1755ab5-2fc6-409e-af8a-b794c8a4df39</elementGuidId>
+   <elementGuidId>9fb7a78e-b32f-4162-8219-6a7bdcb0ef5e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -13,7 +13,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.EditText</value>
-      <webElementGuid>fa9d284a-4676-468c-9ea3-3645550240e6</webElementGuid>
+      <webElementGuid>015a3c2c-2321-48e7-81ae-b0ef304aacf1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,23 +21,23 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>7d5ba395-3232-4c1b-b2b4-ad2f6d068490</webElementGuid>
+      <webElementGuid>c5aa2334-38ed-432f-8506-4b27f6afe019</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Nomor Handphone</value>
-      <webElementGuid>913fdbbf-1da7-48db-8ca4-65adcb312396</webElementGuid>
+      <value>Alamat Email</value>
+      <webElementGuid>16dec70e-993b-4e9a-b86e-1e3bf543e334</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.algostudio.marketingprogram:id/edit_phone</value>
-      <webElementGuid>59028590-6ca9-48da-a7d1-4f733fa9331b</webElementGuid>
+      <value>com.algostudio.marketingprogram:id/edit_email</value>
+      <webElementGuid>426ece55-2fd3-4d3a-b9f1-a370ab41eb03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.algostudio.marketingprogram</value>
-      <webElementGuid>a92ba086-a29b-4dbc-9ca4-db2785b0adf0</webElementGuid>
+      <webElementGuid>c550b432-c794-43ea-8aa5-80d9587be686</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>41dc099e-fea4-4d26-a25a-66ddd0e573c9</webElementGuid>
+      <webElementGuid>30bde531-b2e2-4823-9e3d-e3d3c7afde8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>01f7adb6-202d-4d69-b283-cf68506a6863</webElementGuid>
+      <webElementGuid>2ea70827-87e1-48a3-b4a4-1b1d294f3475</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d79cade1-3d6f-4051-8155-2758f083a3ef</webElementGuid>
+      <webElementGuid>940656aa-96e7-4d78-9e50-d9a063056c4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ddbe353c-c241-4b38-9e3d-58aae281eb0a</webElementGuid>
+      <webElementGuid>15fdfad1-4fda-4a38-9bb3-9576afd2c88c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a84d3fa7-a300-4b89-bd63-e5ba23dba59d</webElementGuid>
+      <webElementGuid>6fed13ac-7436-4e22-bcf6-45750f97df02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>72dcfed8-519a-4585-a060-86f592254fd2</webElementGuid>
+      <webElementGuid>a0489c66-eaae-4333-8d27-16820d743d83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ad0c247d-2614-44b6-9c7d-4d551124ecc9</webElementGuid>
+      <webElementGuid>ed0b42b2-94de-422b-ae6a-6d4069d52710</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>58827344-b1ef-4b50-9476-f8bee8fd7b01</webElementGuid>
+      <webElementGuid>6492322a-d3e1-4b08-ace0-b02349c0458b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6438d125-2c80-4914-94c9-552a3011c042</webElementGuid>
+      <webElementGuid>264b80c1-f171-41a5-8be5-14a6e6030e13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a9fdc3c3-080f-4ce3-b980-9ed04a3f353f</webElementGuid>
+      <webElementGuid>2253bfef-b2d4-4118-a10c-262e33bd07b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -133,15 +133,15 @@
       <name>x</name>
       <type>Main</type>
       <value>30</value>
-      <webElementGuid>e9388f49-e69a-403d-8fad-b9eb22a478ee</webElementGuid>
+      <webElementGuid>d8b685a8-87ab-4001-9235-35db868ac0c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>241</value>
-      <webElementGuid>8e937590-f528-4035-943f-6f5cf36a3adb</webElementGuid>
+      <value>360</value>
+      <webElementGuid>83540c2b-7bf9-4449-9d7e-b7c45bacc17b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>width</name>
       <type>Main</type>
       <value>740</value>
-      <webElementGuid>727abcff-81c4-45bf-be54-28422dbedb1a</webElementGuid>
+      <webElementGuid>965a7bcb-7f5c-4f48-822f-7dcb5d62c221</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -157,15 +157,15 @@
       <name>height</name>
       <type>Main</type>
       <value>89</value>
-      <webElementGuid>af542c88-c644-4ec1-a144-0e49fff21e93</webElementGuid>
+      <webElementGuid>88ba5c25-00f1-4f4b-8686-1d888fd2cde3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[30,241][770,330]</value>
-      <webElementGuid>a01d430b-13e4-4a02-ae7c-887303717c14</webElementGuid>
+      <value>[30,360][770,449]</value>
+      <webElementGuid>23547934-38ba-45c3-aab9-bbf3a9a9b35c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,65 +173,60 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b5ef699f-f339-495e-b62b-f99ead345ca0</webElementGuid>
+      <webElementGuid>87efca96-2eae-4053-8a5b-a0a224b3d877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]</value>
-      <webElementGuid>1feeb36c-4686-492e-aeaa-d1387bd5eb56</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.EditText[1]</value>
+      <webElementGuid>61dc3da6-c22e-4c36-ae35-a102b92a1c79</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.EditText' and @resource-id = 'com.algostudio.marketingprogram:id/edit_phone']</locator>
+   <locator>//*[@class = 'android.widget.EditText' and @resource-id = 'com.algostudio.marketingprogram:id/edit_email']</locator>
    <locatorCollection>
       <entry>
-         <key>NAME</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]</value>
-      </entry>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>android.widget.EditText</value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.EditText' and @resource-id = 'com.algostudio.marketingprogram:id/edit_phone']</value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value>com.algostudio.marketingprogram:id/edit_phone</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.EditText&quot;).text(&quot;Nomor Handphone&quot;).resourceId(&quot;com.algostudio.marketingprogram:id/edit_phone&quot;).packageName(&quot;com.algostudio.marketingprogram&quot;).enabled(true).clickable(true).longClickable(true).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)</value>
+         <value>new UiSelector().className(&quot;android.widget.EditText&quot;).text(&quot;Alamat Email&quot;).resourceId(&quot;com.algostudio.marketingprogram:id/edit_email&quot;).packageName(&quot;com.algostudio.marketingprogram&quot;).enabled(true).clickable(true).longClickable(true).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)</value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
          <value>enabled == 1</value>
       </entry>
       <entry>
-         <key>ACCESSIBILITY</key>
-         <value></value>
+         <key>ANDROID_VIEWTAG</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.EditText[1]</value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>android.widget.EditText</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>com.algostudio.marketingprogram:id/edit_email</value>
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
          <value>**[`enabled == 1`]</value>
       </entry>
       <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@class = 'android.widget.EditText' and @resource-id = 'com.algostudio.marketingprogram:id/edit_email']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>NAME</key>
+      </entry>
+      <entry>
          <key>CUSTOM</key>
-         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

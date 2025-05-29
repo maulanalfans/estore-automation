@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RG 1 - access to registration screen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5649cfa6-9928-43b9-881a-0b4eee73a9fd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1774e680-c090-45f2-a4d4-fc89a1d60992</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fddf8ff0-69ea-4ba2-8479-293f829c0e11</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'082247426858'</defaultValue>
+      <description></description>
+      <id>1774e680-c090-45f2-a4d4-fc89a1d60992</id>
+      <masked>false</masked>
+      <name>phone_number</name>
+   </variable>
+   <variable>
+      <defaultValue>'maulana@algostudio.net'</defaultValue>
+      <description></description>
+      <id>fddf8ff0-69ea-4ba2-8479-293f829c0e11</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

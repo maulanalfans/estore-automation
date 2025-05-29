@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>title screen - Registraasi</name>
+   <name>txt - registered phone number</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -13,7 +13,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>e746e7a5-d7a5-4496-a954-5b14c6508368</webElementGuid>
+      <webElementGuid>97412a4b-a785-4385-8be7-95a1d67d779d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,23 +21,23 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>e356f01a-559e-4e35-aaea-02f58d325ae3</webElementGuid>
+      <webElementGuid>510e27ce-31ed-4907-9bf9-6023a4764289</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Registrasi</value>
-      <webElementGuid>5d24b695-03c9-42a9-b18e-91939de75b1d</webElementGuid>
+      <value>03412251</value>
+      <webElementGuid>d685106c-4e5c-4f78-a450-2ac267624603</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.algostudio.marketingprogram:id/title_toolbar</value>
-      <webElementGuid>0636a2fc-693c-494f-a2e7-b7e6e97fd495</webElementGuid>
+      <value>com.algostudio.marketingprogram:id/text_handphone</value>
+      <webElementGuid>77bb5682-f71a-417f-a5ab-e368b6b666ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.algostudio.marketingprogram</value>
-      <webElementGuid>64840a75-4520-4992-b7b3-0e0d8c01a6ff</webElementGuid>
+      <webElementGuid>47fff396-9ab8-4d14-8108-1757da2e46f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>868f021c-228d-4a49-b744-b8fb347ecb30</webElementGuid>
+      <webElementGuid>99403785-630e-4333-8292-3917aba6be4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>529947e5-3795-4dad-88d7-52595039363e</webElementGuid>
+      <webElementGuid>0ef513f7-7677-4db8-b837-4d15d0424d1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>afd385c1-a50a-405c-9c56-e5d76e4a8a43</webElementGuid>
+      <webElementGuid>e9ccd9d6-93e1-4766-b26e-003ad06d28da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ac690c5e-aba6-4412-a68e-341da6a3460d</webElementGuid>
+      <webElementGuid>609b7a45-8e06-449b-b303-8c9e8291893b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5b84f38b-f6f3-4f22-8f98-75e6384152c3</webElementGuid>
+      <webElementGuid>8a7b0f79-50a6-4783-96ab-05eee88ca088</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>15b65da6-1933-4373-ada4-8d755f0cc935</webElementGuid>
+      <webElementGuid>37c5c57e-7326-41d3-86fd-062140dd5744</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>51ac25f7-574a-48f4-ad53-a73e78b1de08</webElementGuid>
+      <webElementGuid>db0b75bd-ef8b-4d6a-beda-dd455faf561e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e858b8ca-dd44-4a3f-9621-2d4e01943c58</webElementGuid>
+      <webElementGuid>68326f35-7487-4ff9-b0b2-a94a9fa815d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>deec6461-c519-4204-aedc-a3ea2b7b5787</webElementGuid>
+      <webElementGuid>00ed7ab4-9fdd-48e0-b852-78a1f66d5a35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,47 +125,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ad077ee0-f203-4152-9df8-33c047c2616a</webElementGuid>
+      <webElementGuid>fc3e1443-5f2c-412a-b7de-246337fd83ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>320</value>
-      <webElementGuid>39ae9441-d184-4e4c-bb21-2c88e984e8c2</webElementGuid>
+      <value>400</value>
+      <webElementGuid>9ed0fae2-70fc-444a-8e96-322967286318</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>78</value>
-      <webElementGuid>e263e06a-98f3-4d4e-ab60-993804835b10</webElementGuid>
+      <value>991</value>
+      <webElementGuid>477b1775-5ec4-4f50-8eb3-9001d8915e50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>159</value>
-      <webElementGuid>ea9d705a-ab8c-4692-b2a5-db0f9b5b5de1</webElementGuid>
+      <value>361</value>
+      <webElementGuid>18ec695f-6f7a-4e91-8e32-d1be2f0291bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>39</value>
-      <webElementGuid>062d80be-444f-41bf-b751-1862b44bf0cf</webElementGuid>
+      <value>28</value>
+      <webElementGuid>e3184f9b-0bb5-486c-877e-20d5423c41c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[320,78][479,117]</value>
-      <webElementGuid>686d1539-b3b3-44ff-be4d-95dddb255eea</webElementGuid>
+      <value>[400,991][761,1019]</value>
+      <webElementGuid>8feff010-0a90-496a-a9eb-327cbde8f120</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,63 +173,60 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9de111b1-943e-4757-a8ad-8a5b940d0271</webElementGuid>
+      <webElementGuid>35cad0d1-51f3-4ed2-b3c2-a0cfe157218b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]</value>
-      <webElementGuid>f776b3da-ccd1-4371-ba2a-a690aa253040</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[5]/android.widget.TextView[2]</value>
+      <webElementGuid>b56301b5-73af-43a9-a5bd-a4b66adbadf4</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Registrasi' or . = 'Registrasi') and @resource-id = 'com.algostudio.marketingprogram:id/title_toolbar']</locator>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = '03412251' or . = '03412251') and @resource-id = 'com.algostudio.marketingprogram:id/text_handphone']</locator>
    <locatorCollection>
       <entry>
-         <value>//*[@class = 'android.widget.TextView' and (@text = 'Registrasi' or . = 'Registrasi') and @resource-id = 'com.algostudio.marketingprogram:id/title_toolbar']</value>
-      </entry>
-      <entry>
-         <key>NAME</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]</value>
-      </entry>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>android.widget.TextView</value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.TextView' and (@text = 'Registrasi' or . = 'Registrasi') and @resource-id = 'com.algostudio.marketingprogram:id/title_toolbar']</value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value>com.algostudio.marketingprogram:id/title_toolbar</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Registrasi&quot;).resourceId(&quot;com.algostudio.marketingprogram:id/title_toolbar&quot;).packageName(&quot;com.algostudio.marketingprogram&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value></value>
+         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;03412251&quot;).resourceId(&quot;com.algostudio.marketingprogram:id/text_handphone&quot;).packageName(&quot;com.algostudio.marketingprogram&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)</value>
       </entry>
       <entry>
          <key>ACCESSIBILITY</key>
          <value></value>
       </entry>
       <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[5]/android.widget.TextView[2]</value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>android.widget.TextView</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>com.algostudio.marketingprogram:id/text_handphone</value>
+      </entry>
+      <entry>
          <key>IOS_CLASS_CHAIN</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@class = 'android.widget.TextView' and (@text = '03412251' or . = '03412251') and @resource-id = 'com.algostudio.marketingprogram:id/text_handphone']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>NAME</key>
          <value></value>
       </entry>
       <entry>
