@@ -15,7 +15,7 @@
       <guid>431b5122-022a-4ab1-8517-1d6470001565</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register/RG 1 - register with duplicate phone number</testCaseId>
+      <testCaseId>Test Cases/Register/RG 3 - register with duplicate phone number</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
