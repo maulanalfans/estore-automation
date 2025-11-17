@@ -1,0 +1,10 @@
+{
+  "orientation": "PORTRAIT",
+  "noReset": true,
+  "appWaitActivity": "*",
+  "automationName": "UiAutomator2",
+  "autoGrantPermissions": true,
+  "forceAppLaunch": "true",
+  "ignoreHiddenApiPolicyError": true,
+  "deviceId": ""
+}

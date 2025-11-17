@@ -21,7 +21,7 @@ Mobile.startExistingApplication(GlobalVariable.application_id,FailureHandling.ST
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Login Screen/title screen - Philips lighting e-store'), 5)
 
-WebUI.callTestCase(findTestCase('Test Cases/Login/_Clear text in login screen'), null)
+Mobile.callTestCase(findTestCase('Test Cases/Login/_Clear text in login screen'), null)
 
 Mobile.tap(findTestObject('Object Repository/Login Screen/btn - Masuk'), 0)
 

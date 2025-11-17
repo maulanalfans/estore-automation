@@ -3,11 +3,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
-import javax.swing.JOptionPane
-//import io.appium.java_client.android.AndroidDriver
-//import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
-
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -22,31 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication(GlobalVariable.application_id, FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.application_id,FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Login Screen/title screen - Philips lighting e-store'), 10)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Login Screen/title screen - Philips lighting e-store'), 5)
 
 Mobile.callTestCase(findTestCase('Test Cases/Login/_Clear text in login screen'), null)
 
+Mobile.tap(findTestObject('Object Repository/Login Screen/txtfield - Store Code'),0)
 Mobile.setText(findTestObject('Object Repository/Login Screen/txtfield - Store Code'), GlobalVariable.store_code, 0)
-
-Mobile.setText(findTestObject('Object Repository/Login Screen/txtfield - Password'), GlobalVariable.password, 0)
 
 Mobile.tap(findTestObject('Object Repository/Login Screen/btn - Masuk'), 0)
 
-Mobile.closeApplication()
+Mobile.verifyElementExist(findTestObject('Object Repository/Login Screen/snackbar alert'), 2)
 
-Thread.sleep(2000)
+String alert_invalid = Mobile.getText(findTestObject('Object Repository/Login Screen/snackbar alert'), 2)
+Mobile.verifyMatch(alert_invalid, 'Silakan mengisi password anda', false)
 
-Mobile.startExistingApplication(GlobalVariable.application_id, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.delay(5)
-
-String store_name = Mobile.getText(findTestObject('Object Repository/Dashboard/txt - Store Name'), 0, FailureHandling.OPTIONAL)
-
-if (store_name == null || !store_name || store_name == '') {
-	assert true	: 'bug closed'
-}else {
-	Mobile.verifyMatch(GlobalVariable.store_code,".*${store_name.toLowerCase()}*.", false)
-	assert false : 'bypass successfuly'
-}
+Mobile.waitForElementPresent(findTestObject('Object Repository/Login Screen/title screen - Philips lighting e-store'), 5)

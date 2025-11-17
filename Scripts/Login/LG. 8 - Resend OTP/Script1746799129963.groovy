@@ -25,7 +25,7 @@ import com.kms.katalon.core.util.KeywordUtil
 
 Mobile.startExistingApplication(GlobalVariable.application_id, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Test Cases/Login/_Clear text in login screen'), null)
+Mobile.callTestCase(findTestCase('Test Cases/Login/_Clear text in login screen'), null)
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Login Screen/title screen - Philips lighting e-store'), 5)
 

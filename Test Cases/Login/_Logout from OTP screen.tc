@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Clear text in login screen</name>
+   <name>_Logout from OTP screen</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c6167c5a-de6e-439e-a55c-d9dc1bb997c2</testCaseGuid>
+   <testCaseGuid>033a4e7d-0bef-4aa4-a6b6-143ba9411b66</testCaseGuid>
 </TestCaseEntity>

@@ -22,7 +22,7 @@ Mobile.startExistingApplication(GlobalVariable.application_id, FailureHandling.S
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Login Screen/title screen - Philips lighting e-store'), 5)
 
-WebUI.callTestCase(findTestCase('Test Cases/Login/_Clear text in login screen'), null)
+Mobile.callTestCase(findTestCase('Test Cases/Login/_Clear text in login screen'), null)
 
 Mobile.setText(findTestObject('Object Repository/Login Screen/txtfield - Store Code'), store_code, 0)
 

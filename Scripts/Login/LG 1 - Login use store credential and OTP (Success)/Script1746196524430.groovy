@@ -24,7 +24,7 @@ Mobile.startExistingApplication(GlobalVariable.application_id, FailureHandling.S
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Login Screen/title screen - Philips lighting e-store'), 10)
 
-WebUI.callTestCase(findTestCase('Test Cases/Login/_Clear text in login screen'), null)
+Mobile.callTestCase(findTestCase('Test Cases/Login/_Clear text in login screen'), null)
 
 Mobile.setText(findTestObject('Object Repository/Login Screen/txtfield - Store Code'), GlobalVariable.store_code, 0)
 
@@ -54,7 +54,7 @@ Mobile.delay(5)
 String store_name = Mobile.getText(findTestObject('Object Repository/Dashboard/txt - Store Name'), 0)
 
 if (store_name.toLowerCase().contains(GlobalVariable.store_code)) {
-    WebUI.callTestCase(findTestCase('Test Cases/Login/_Logout from dashboard'), [:], FailureHandling.STOP_ON_FAILURE)
+    Mobile.callTestCase(findTestCase('Test Cases/Login/_Logout from dashboard'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
     assert false
 }

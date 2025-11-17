@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Logout from OTP screen</name>
+   <name>_Logout from dashboard</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>033a4e7d-0bef-4aa4-a6b6-143ba9411b66</testCaseGuid>
+   <testCaseGuid>c895fe44-12c7-4802-a6f9-671a92e0c3ab</testCaseGuid>
 </TestCaseEntity>

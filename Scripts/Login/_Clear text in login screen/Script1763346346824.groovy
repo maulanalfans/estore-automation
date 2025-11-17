@@ -17,6 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.clearText(findTestObject('Object Repository/Login Screen/txtfield - Store Code'), 0)
-Mobile.clearText(findTestObject('Object Repository/Login Screen/txtfield - Nomor Handphone'), 0)
-Mobile.clearText(findTestObject('Object Repository/Login Screen/txtfield - Password'), 0)
+//Mobile.startExistingApplication(GlobalVariable.application_id)
+//Mobile.setText(findTestObject('Object Repository/Login Screen/txtfield - Nomor Handphone (1)'), '082', 0)
+//Mobile.setText(findTestObject('Object Repository/Login Screen/txtfield - Password (1)'), 'Password', 0)
+//Mobile.setText(findTestObject('Object Repository/Login Screen/txtfield - Store Code (1)'), 'Store Code', 0)
+//Mobile.delay(3)
+Mobile.clearText(findTestObject('Object Repository/Login Screen/txtfield - Nomor Handphone (1)'), 0)
+Mobile.clearText(findTestObject('Object Repository/Login Screen/txtfield - Password (1)'), 0)
+Mobile.clearText(findTestObject('Object Repository/Login Screen/txtfield - Store Code (1)'), 0)
