@@ -23,14 +23,18 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import estore.helper.ToastVerifier
 Mobile.startExistingApplication(GlobalVariable.application_id, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Test Cases/Login/Clear text in login screen'), null)
+WebUI.callTestCase(findTestCase('Test Cases/Login/_Clear text in login screen'), null)
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Login Screen/title screen - Philips lighting e-store'), 5)
 
-Mobile.setText(findTestObject('Object Repository/Login Screen/txtfield - Nomor Handphone'), GlobalVariable.store_phone_number, 
-    0)
+Mobile.setText(findTestObject('Object Repository/Login Screen/txtfield - Nomor Handphone'), GlobalVariable.store_phone_number, 0)
 
 Mobile.tap(findTestObject('Object Repository/Login Screen/btn - Masuk Dengan Nomor Handphone'), 0)
+
+boolean popupOTPKadaluarsa = Mobile.verifyElementVisible(findTestObject("Object Repository/OTP Login Screen/txt - popup Terdapat OTP yang belum kadaluarsa"), 0)
+if(popupOTPKadaluarsa) {
+	Mobile.tap(findTestObject("Object Repository/OTP Login Screen/btn - OTP popup login kembali OK"), 0)
+}
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/OTP Login Screen/title screen - OTP Login'), 0)
 
@@ -41,8 +45,8 @@ def isToastExist = toast.verifyToast("Silahkan masukan 6 digit kode","OTP_Blank"
 
 if(isToastExist == 0) {
 	assert true : "Toast visible and correct"
-	Mobile.callTestCase(findTestCase('Login/Logout from OTP screen'), [:])
+	Mobile.callTestCase(findTestCase('Login/_Logout from OTP screen'), [:])
 }else {
 	assert false : "Toast tidak muncul atau expected text tidak sama"
-	Mobile.callTestCase(findTestCase('Login/Logout from OTP screen'), [:])
+	Mobile.callTestCase(findTestCase('Login/_Logout from OTP screen'), [:])
 }

@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0341225'</initValue>
+      <initValue>'082'</initValue>
       <name>store_phone_number</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

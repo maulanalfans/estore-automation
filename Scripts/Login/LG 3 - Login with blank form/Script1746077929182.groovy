@@ -21,14 +21,13 @@ Mobile.startExistingApplication(GlobalVariable.application_id,FailureHandling.ST
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Login Screen/title screen - Philips lighting e-store'), 5)
 
-WebUI.callTestCase(findTestCase('Test Cases/Login/Clear text in login screen'), null)
+WebUI.callTestCase(findTestCase('Test Cases/Login/_Clear text in login screen'), null)
 
 Mobile.tap(findTestObject('Object Repository/Login Screen/btn - Masuk'), 0)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Login Screen/snackbar alert'), 2)
 
 String alert_invalid = Mobile.getText(findTestObject('Object Repository/Login Screen/snackbar alert'), 2)
-Mobile.verifyMatch(alert_invalid, 'Kode Toko harus di isi', false)
+Mobile.verifyMatch(alert_invalid, 'Silakan mengisi kode toko anda', false)
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Login Screen/title screen - Philips lighting e-store'), 5)
-

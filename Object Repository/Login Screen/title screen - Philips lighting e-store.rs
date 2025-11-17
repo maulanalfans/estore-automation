@@ -13,7 +13,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>c30705cb-ef6e-4873-a101-78a1fb848701</webElementGuid>
+      <webElementGuid>34010107-f300-41e2-b62b-2ffd908877ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,16 +21,15 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>d45cc043-76a5-46ee-8352-c0dc61f2af0e</webElementGuid>
+      <webElementGuid>45395d36-c1c2-4569-9518-d249038367b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Philips
-lighting e-store</value>
-      <webElementGuid>f85d83ef-5118-4648-886f-37aa614f3fcd</webElementGuid>
+      <value>Philips Lighting e-Store</value>
+      <webElementGuid>191eae53-8599-43cd-85ed-2cb2c005273e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@ lighting e-store</value>
       <name>package</name>
       <type>Main</type>
       <value>com.algostudio.marketingprogram</value>
-      <webElementGuid>600a8adb-57b2-4736-8b31-3660b77da045</webElementGuid>
+      <webElementGuid>01d5924a-7b22-4f7b-b564-b77fa2f91e2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@ lighting e-store</value>
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a234d2e0-8bf4-4187-a10c-69946c4602ab</webElementGuid>
+      <webElementGuid>f67f39bf-c1e0-44ed-8095-db9268e2f64f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@ lighting e-store</value>
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>420687e8-1900-449b-a1ae-458a9eff8ca1</webElementGuid>
+      <webElementGuid>2e8fa632-afbd-4211-b482-583bee02cc01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@ lighting e-store</value>
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b66e1917-1387-46c0-9792-b6688cfb2915</webElementGuid>
+      <webElementGuid>61b9d195-3818-4052-a6c6-9595505bfb0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@ lighting e-store</value>
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>44b57704-b083-4f1e-82d0-96d61077b99a</webElementGuid>
+      <webElementGuid>ebbc8e6e-c5b1-4754-a99e-611b95baebb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@ lighting e-store</value>
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>bbfee41b-43d2-4204-bf44-e6e7f104f778</webElementGuid>
+      <webElementGuid>4234b2b7-be3b-43d2-abfa-ba9254300d48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@ lighting e-store</value>
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>756564e3-163d-4490-83fa-a72a24ccd16d</webElementGuid>
+      <webElementGuid>edcbac98-1a1b-44f7-b7de-06aac04df80d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@ lighting e-store</value>
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d5c2c8ce-cf7c-4f16-9fe2-8fa52583dcaf</webElementGuid>
+      <webElementGuid>8e2cc40d-0115-4e96-b0ae-0ab3068f66e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@ lighting e-store</value>
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>708e6196-f876-49a3-892f-fa89e90ccad0</webElementGuid>
+      <webElementGuid>b141876e-c711-49ef-9d53-12a2abeff1da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@ lighting e-store</value>
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>51cb162c-292a-44e9-8425-bf388697ca42</webElementGuid>
+      <webElementGuid>8d569b95-808a-4709-a4fe-6a5ee9061c33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,47 +117,47 @@ lighting e-store</value>
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>27222eb2-7d8f-4374-92d0-b5efb5ecd5f2</webElementGuid>
+      <webElementGuid>15a1f704-4b1a-41fd-96e6-3dc971cc8e39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>51</value>
-      <webElementGuid>ec9ea758-4f8e-4bdf-b749-79927bdcfdb3</webElementGuid>
+      <value>54</value>
+      <webElementGuid>dfb69c62-f56d-4191-9a03-75267fcd2f50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>676</value>
-      <webElementGuid>eb6e5cd6-cdbc-4b28-b667-61a35e2cf4fd</webElementGuid>
+      <value>699</value>
+      <webElementGuid>cf1c007c-bc12-4742-9c4d-b68d929fd3b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>978</value>
-      <webElementGuid>9a05e49a-0986-4be2-88d6-a8f6e9c5918d</webElementGuid>
+      <value>972</value>
+      <webElementGuid>a494fb82-98b3-4db3-bba8-9e1c91bf3998</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>139</value>
-      <webElementGuid>a7261f2a-5dd7-4821-8796-05de2a449597</webElementGuid>
+      <value>75</value>
+      <webElementGuid>30768622-7bf3-4ff8-a8fc-4e78db8e227e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[51,676][1029,815]</value>
-      <webElementGuid>edbf9374-b6eb-43eb-b1cd-2e4adacf90bc</webElementGuid>
+      <value>[54,699][1026,774]</value>
+      <webElementGuid>1015e0ec-2e33-43a5-9e56-e8bd7839fa4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -166,7 +165,7 @@ lighting e-store</value>
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>f6f7b6f1-a576-494e-8f37-692c0ebb954c</webElementGuid>
+      <webElementGuid>eeb10616-25ea-44fd-98fa-cee9fe7e8f2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -174,10 +173,62 @@ lighting e-store</value>
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]</value>
-      <webElementGuid>49a782ff-e23c-4069-8539-495859b1700a</webElementGuid>
+      <webElementGuid>56c06be7-d33f-443c-b5e3-be57b63916f9</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Philips
-lighting e-store' or . = 'Philips
-lighting e-store')]</locator>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Philips Lighting e-Store' or . = 'Philips Lighting e-Store')]</locator>
+   <locatorCollection>
+      <entry>
+         <value>//*[@class = 'android.widget.TextView' and (@text = 'Philips Lighting e-Store' or . = 'Philips Lighting e-Store')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@class = 'android.widget.TextView' and (@text = 'Philips Lighting e-Store' or . = 'Philips Lighting e-Store')]</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Philips Lighting e-Store&quot;).packageName(&quot;com.algostudio.marketingprogram&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)</value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]</value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>android.widget.TextView</value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value></value>
+      </entry>
+   </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <platform>ANDROID</platform>
 </MobileElementEntity>

@@ -25,7 +25,7 @@ import com.kms.katalon.core.util.KeywordUtil
 
 Mobile.startExistingApplication(GlobalVariable.application_id, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Test Cases/Login/Clear text in login screen'), null)
+WebUI.callTestCase(findTestCase('Test Cases/Login/_Clear text in login screen'), null)
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Login Screen/title screen - Philips lighting e-store'), 5)
 
@@ -33,16 +33,22 @@ Mobile.setText(findTestObject('Object Repository/Login Screen/txtfield - Nomor H
 
 Mobile.tap(findTestObject('Object Repository/Login Screen/btn - Masuk Dengan Nomor Handphone'), 0)
 
+boolean popupOTPKadaluarsa = Mobile.verifyElementVisible(findTestObject("Object Repository/OTP Login Screen/txt - popup Terdapat OTP yang belum kadaluarsa"), 0)
+if(popupOTPKadaluarsa) {
+	Mobile.tap(findTestObject("Object Repository/OTP Login Screen/btn - OTP popup login kembali OK"), 0)
+}
+
 Mobile.verifyElementVisible(findTestObject('Object Repository/OTP Login Screen/title screen - OTP Login'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/OTP Login Screen/btn - resend SMS OTP'), 310)
 
-Mobile.tap(findTestObject('Object Repository/OTP Login Screen/btn - resend SMS OTP'), 0)
+Mobile.tap(findTestObject('Object Repository/OTP Login Screen/btn - resend SMS OTP'), 2)
 
-boolean btnResendNotVisible = Mobile.verifyElementNotVisible(findTestObject('Object Repository/OTP Login Screen/btn - resend SMS OTP'), 5)
+Mobile.delay(5)
+boolean btnResendNotVisible = Mobile.verifyElementNotVisible(findTestObject('Object Repository/OTP Login Screen/btn - resend SMS OTP'), 2)
 
 if(btnResendNotVisible) {
-	WebUI.callTestCase(findTestCase('Test Cases/Login/Logout from OTP screen'), null)
+	Mobile.callTestCase(findTestCase('Test Cases/Login/_Logout from OTP screen'), null)
 	assert true : "PASSED, berhasil kirim ulang OTP"
 }else {
 	assert false : "FAILED, gagal kirim ulang OTP"

@@ -3,8 +3,9 @@
    <description></description>
    <name>btn - Masuk</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>ab3119ee-698c-4d6c-bcaa-098b866a0f47</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -12,31 +13,31 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>5ac18bd2-a551-40bd-ac18-31649ec7e9e3</webElementGuid>
+      <webElementGuid>7fe63e9e-6347-4e23-99b8-5743ec4e974e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>4</value>
-      <webElementGuid>fa10a402-d680-40e3-93cd-e83823fbda40</webElementGuid>
+      <value>0</value>
+      <webElementGuid>5fb08a4c-de93-4ed9-bad5-9a324f75d0a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Masuk</value>
-      <webElementGuid>4a143e75-9765-4e24-a901-b71eb20e7f71</webElementGuid>
+      <value>MASUK</value>
+      <webElementGuid>9b1e3e38-7968-41f2-a8dc-c55bc3784a51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.algostudio.marketingprogram:id/button_login</value>
-      <webElementGuid>11178281-fdf0-4e70-8925-b098b69c6b57</webElementGuid>
+      <value>com.algostudio.marketingprogram:id/textButton</value>
+      <webElementGuid>8aa4f5d2-0874-465c-a5b8-739971eb2c85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +45,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.algostudio.marketingprogram</value>
-      <webElementGuid>b5d63e19-b0d5-48b7-8798-58eb0d433b20</webElementGuid>
+      <webElementGuid>c08d0ef9-63fa-4ee4-8295-4fe39030248a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>697e46c3-27d3-4310-868a-015a247a5f2e</webElementGuid>
+      <webElementGuid>282cd887-e60a-4a5b-813d-d7e9283dd6a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,15 +61,15 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6d41e487-1267-4513-aaac-7806a44f6819</webElementGuid>
+      <webElementGuid>431526e1-7871-47f3-9ed3-156802804bd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>b10b25ce-9d38-4c52-9d3e-f09372be33bf</webElementGuid>
+      <value>false</value>
+      <webElementGuid>a166196f-5e4b-4373-a0c5-b873f13a578e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,15 +77,15 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2e3c0181-87c8-4df8-bb4d-9613db08f5e8</webElementGuid>
+      <webElementGuid>b82fddef-054a-44e3-9a67-24e29fcfb270</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>10df8e96-1fc6-4430-9e12-581a07e8ccae</webElementGuid>
+      <value>false</value>
+      <webElementGuid>65d5be30-6670-4711-beb1-46887a6cc6e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3e92cdb2-34ce-452e-a511-8ebd16d68cf0</webElementGuid>
+      <webElementGuid>778da540-5fc1-4405-97c7-538c11aa2f5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f9b6008e-c68b-4178-8a7e-f7fe65c99d78</webElementGuid>
+      <webElementGuid>310b50ca-9ef2-4d0b-8fac-86f8ed7e6a68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>afb8cc0d-6cb8-477c-a1be-ccfc1f8a0222</webElementGuid>
+      <webElementGuid>e27aea0c-46cb-4a1b-8901-2a42a184df5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e5fece70-1812-4408-8a41-69a64386218d</webElementGuid>
+      <webElementGuid>29f7c013-be4a-4581-bdee-e12d77f9adff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,47 +125,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ada34894-7ac9-4523-b10e-04440f2a8757</webElementGuid>
+      <webElementGuid>87278afd-b0d4-4ed8-a949-4ad8aa0bbf0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>51</value>
-      <webElementGuid>a7f3763c-4459-4c56-934e-f6c4b00598c0</webElementGuid>
+      <value>470</value>
+      <webElementGuid>053c37e3-1589-4a52-83f9-d5a603564db5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>1266</value>
-      <webElementGuid>2cfd1ec6-18ef-4f08-89f4-141dcdf2e686</webElementGuid>
+      <value>1274</value>
+      <webElementGuid>74da5758-18e1-410c-83dd-7af6755dafe1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>978</value>
-      <webElementGuid>165814e3-cb10-462f-8a4b-24d37e0c71a3</webElementGuid>
+      <value>139</value>
+      <webElementGuid>973f5765-9052-4473-990f-b6c167b359cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>121</value>
-      <webElementGuid>81684aea-4e8f-4074-a375-80ba1b40fed6</webElementGuid>
+      <value>48</value>
+      <webElementGuid>313e5f9a-0a1f-422f-a89e-79171dddef00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[51,1266][1029,1387]</value>
-      <webElementGuid>cfd02dab-69f3-483c-8b7f-8f9dc14d1cd1</webElementGuid>
+      <value>[470,1274][609,1322]</value>
+      <webElementGuid>6130b4c1-221e-49ca-9545-6739b1f22852</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,16 +173,67 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>56f2864b-6158-4fdc-ad8f-00f4145c62ad</webElementGuid>
+      <webElementGuid>298f6966-549d-4def-ae6e-0eaf863248bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]</value>
-      <webElementGuid>703e5cb0-491c-4c8c-9878-ee3b240e499d</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.TextView[1]</value>
+      <webElementGuid>f7a3c8e3-b73d-40fd-9c92-7732ab4ca384</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Masuk' or . = 'Masuk') and @resource-id = 'com.algostudio.marketingprogram:id/button_login']</locator>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.algostudio.marketingprogram:id/textButton']</locator>
+   <locatorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@class = 'android.widget.TextView' and (@text = 'Masuk' or . = 'Masuk') and @resource-id = 'com.algostudio.marketingprogram:id/button_login']</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>com.algostudio.marketingprogram:id/button_login</value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Masuk&quot;).resourceId(&quot;com.algostudio.marketingprogram:id/button_login&quot;).packageName(&quot;com.algostudio.marketingprogram&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(4)</value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**[`enabled == 1`]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]</value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>android.widget.TextView</value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>enabled == 1</value>
+      </entry>
+   </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <platform>ANDROID</platform>
 </MobileElementEntity>

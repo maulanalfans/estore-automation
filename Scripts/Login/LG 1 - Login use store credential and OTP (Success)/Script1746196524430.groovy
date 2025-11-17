@@ -24,13 +24,18 @@ Mobile.startExistingApplication(GlobalVariable.application_id, FailureHandling.S
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Login Screen/title screen - Philips lighting e-store'), 10)
 
-WebUI.callTestCase(findTestCase('Test Cases/Login/Clear text in login screen'), null)
+WebUI.callTestCase(findTestCase('Test Cases/Login/_Clear text in login screen'), null)
 
 Mobile.setText(findTestObject('Object Repository/Login Screen/txtfield - Store Code'), GlobalVariable.store_code, 0)
 
 Mobile.setText(findTestObject('Object Repository/Login Screen/txtfield - Password'), GlobalVariable.password, 0)
 
 Mobile.tap(findTestObject('Object Repository/Login Screen/btn - Masuk'), 0)
+
+boolean popupOTPKadaluarsa = Mobile.verifyElementVisible(findTestObject("Object Repository/OTP Login Screen/txt - popup Terdapat OTP yang belum kadaluarsa"), 0)
+if(popupOTPKadaluarsa) {
+	Mobile.tap(findTestObject("Object Repository/OTP Login Screen/btn - OTP popup login kembali OK"), 0)
+}
 
 Mobile.verifyElementExist(findTestObject('Object Repository/OTP Login Screen/title screen - OTP Login'), 0)
 
@@ -48,10 +53,8 @@ Mobile.delay(5)
 
 String store_name = Mobile.getText(findTestObject('Object Repository/Dashboard/txt - Store Name'), 0)
 
-boolean isMatch = Mobile.verifyMatch(store_name.toLowerCase(), GlobalVariable.store_code, false)
-
-if (isMatch) {
-    WebUI.callTestCase(findTestCase('Test Cases/Login/Logout from dashboard'), [:], FailureHandling.STOP_ON_FAILURE)
+if (store_name.toLowerCase().contains(GlobalVariable.store_code)) {
+    WebUI.callTestCase(findTestCase('Test Cases/Login/_Logout from dashboard'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
     assert false
 }
